@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Landing = () =>
-  (<div className="landing">
+  <div className="landing">
     <h1>Bane-video</h1>
-    <a>or Browse All</a>
-  </div>);
+    <Link to="/search">or Browse All</Link>
+  </div>;
 
 export default Landing;
